@@ -1,0 +1,28 @@
+{
+  "name": "browser-sync-middleware-spa",
+  "version": "1.0.0",
+  "description": "A single page application middleware for the BrowserSync server",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/influentialpublishers/browser-sync-middleware-spa.git"
+  },
+  "keywords": [
+    "browser-sync",
+    "webapp",
+    "middleware"
+  ],
+  "author": "Nathan A Sculli <nsculli@influential.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/influentialpublishers/browser-sync-middleware-spa/issues"
+  },
+  "homepage": "https://github.com/influentialpublishers/browser-sync-middleware-spa#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4"
+  }
+}
